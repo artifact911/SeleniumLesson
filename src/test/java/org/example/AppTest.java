@@ -3,6 +3,7 @@ package org.example;
 
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
@@ -17,5 +18,10 @@ public class AppTest {
     @Test
     public void shouldAnswerFalse() {
         assertFalse(false);
+    }
+
+    @Test
+    public void equalsSmth() {
+        assertEquals("Sasha", "Sasha");
     }
 }
